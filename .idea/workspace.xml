@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="c1b88fcb-a242-45d6-a462-41932b322be9" name="Default Changelist" comment="Version 1.0&#10;First basic requirements of project met. Working with sample.txt file in the working directory. Meets simple test cases.">
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/description.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/project-template.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/string-and-words.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample_words.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/company/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/string-and-words.iml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="26J3xEaQeKTtP4rcGKrrx5EhVbS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+      <module name="string-and-words" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c1b88fcb-a242-45d6-a462-41932b322be9" name="Default Changelist" comment="" />
+      <created>1647128105378</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647128105378</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Version 1.0&#10;First basic requirements of project met. Working with sample.txt file in the working directory. Meets simple test cases." />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0&#10;First basic requirements of project met. Working with sample.txt file in the working directory. Meets simple test cases." />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="0" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647136422331">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="0" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647136422331" />
+    <state width="1020" height="220" key="GridCell.Tab.0.bottom" timestamp="1647138184081">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1020" height="220" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184081" />
+    <state width="1020" height="220" key="GridCell.Tab.0.center" timestamp="1647138184081">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1020" height="220" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184081" />
+    <state width="1020" height="220" key="GridCell.Tab.0.left" timestamp="1647138184080">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1020" height="220" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184080" />
+    <state width="1020" height="220" key="GridCell.Tab.0.right" timestamp="1647138184081">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="1020" height="220" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184081" />
+    <state x="40" y="98" key="SettingsEditor" timestamp="1647136080588">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="40" y="98" key="SettingsEditor/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647136080588" />
+    <state x="322" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647137090090">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="322" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647137090090" />
+  </component>
+</project>
