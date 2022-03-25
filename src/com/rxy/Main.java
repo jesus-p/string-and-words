@@ -57,8 +57,7 @@ public class Main {
         System.out.println();
     }
 
-    static void replaceWord(String filePath, String oldString, String newString)
-    {
+    static void replaceWord(String filePath, String oldString, String newString) {
         File fileToBeModified = new File(filePath);
         String oldContent = "";
         BufferedReader reader = null;
