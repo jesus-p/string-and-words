@@ -1,9 +1,10 @@
-# CS5103 Course Project: String-and-Words
-### README
+# string-and-words
+README
+CS5103 Course Project
 Program performs various word statistics of a given document (as a string).
 
 **Included:**
+- All source files
 - This README
-- Source files
-- Test files
-- Requirement files
+- Makefile
+- Sample Inputs/Outputs
