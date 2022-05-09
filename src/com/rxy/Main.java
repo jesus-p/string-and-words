@@ -1,5 +1,4 @@
 package com.rxy;
-
 import java.io.*;
 import java.nio.file.FileSystems;
 import java.util.ArrayList;
@@ -8,6 +7,7 @@ import java.util.Scanner;
 public class Main {
 
     public static void main(String[] args) throws IOException {
+        //Clone Detection Applied 5-8-22
         //Create input stream and scanner
         System.out.println("Enter the name of the txt file and press enter (Ex: 'test.txt'): ");
         String txtFileName = new Scanner(System.in).nextLine();
