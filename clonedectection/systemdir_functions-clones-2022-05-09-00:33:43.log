@@ -1,0 +1,76 @@
+Mon May  9 00:33:43 CDT 2022
+./txl/java-extract-functions.x ALL.java >> systems/systemdir_functions.xml
+
+Mon May  9 00:33:43 CDT 2022
+
+Mon May  9 00:33:43 CDT 2022
+./tools/streamprocess.x './txl/java-rename-blind-functions.x stdin' < systems/systemdir_functions.xml > systems/systemdir_functions-blind.xml
+
+real	0m0.190s
+user	0m0.009s
+sys	0m0.014s
+
+Mon May  9 00:33:44 CDT 2022
+
+Mon May  9 00:33:44 CDT 2022
+./tools/clonepairs.x systems/systemdir_functions-blind.xml 0.30 10 2500 > systems/systemdir_functions-blind-clones/systemdir_functions-blind-clones-0.30.xml
+Processing systems/systemdir_functions-blind.xml with difference threshold 30%, clone size 10 .. 2500 lines
+Reading pcs . done.
+Total 4/6000000 potential clones of 10 lines or more
+Used 80/100000000 total pc lines
+Used 1096/600000000 unique line text chars
+ and 49/12000000 unique lines
+Sorting pcs . done.
+Finding clones  done.
+Total 0 pc comparisons
+Pruning embedded clone pairs . done.
+Pruned 0 embedded clone pairs
+Found 0 clone pairs
+Generating XML output  done.
+
+
+real	0m0.114s
+user	0m0.014s
+sys	0m0.015s
+
+Mon May  9 00:33:44 CDT 2022
+
+Mon May  9 00:33:44 CDT 2022
+./tools/cloneclasses.x systems/systemdir_functions-blind-clones/systemdir_functions-blind-clones-0.30.xml > systems/systemdir_functions-blind-clones/systemdir_functions-blind-clones-0.30-classes.xml
+Processing systems/systemdir_functions-blind-clones/systemdir_functions-blind-clones-0.30.xml
+Reading clone pairs . done.
+Total 0 pairs
+Sorting pairs . done.
+Indexing pairs  done.
+Computing classes  done.
+Clustered clone pairs into 0 classes
+Generating XML output  done.
+
+
+real	0m0.134s
+user	0m0.020s
+sys	0m0.024s
+
+Mon May  9 00:33:44 CDT 2022
+
+Mon May  9 00:33:44 CDT 2022
+./tools/getsource.x systems/systemdir_functions-blind-clones/systemdir_functions-blind-clones-0.30-classes.xml systems/systemdir_functions-blind-clones/systemdir_functions-blind-clones-0.30-classes-withsource.xml
+systems/systemdir_functions-blind-clones/systemdir_functions-blind-clones-0.30-classes.xml
+
+real	0m0.115s
+user	0m0.001s
+sys	0m0.002s
+
+Mon May  9 00:33:44 CDT 2022
+
+Mon May  9 00:33:45 CDT 2022
+./tools/tohtmlpairs.x systems/systemdir_functions-blind-clones/systemdir_functions-blind-clones-0.30-classes-withsource.xml systems/systemdir_functions-blind-clones/systemdir_functions-blind-clones-0.30-classes-withsource.html
+functions-blind
+30%
+
+real	0m0.096s
+user	0m0.001s
+sys	0m0.002s
+
+Mon May  9 00:33:45 CDT 2022
+

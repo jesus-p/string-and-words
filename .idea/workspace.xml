@@ -25,9 +25,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c1b88fcb-a242-45d6-a462-41932b322be9" name="Default Changelist" comment="Version 1.0&#10;First basic requirements of project met. Working with sample.txt file in the working directory. Meets simple test cases.">
+    <list default="true" id="c1b88fcb-a242-45d6-a462-41932b322be9" name="Default Changelist" comment="Version 3.0&#10;3rd Requirements applied">
+      <change afterPath="$PROJECT_DIR$/src/com/rxy/MainTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/string-and-words/com/rxy/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/string-and-words/com/rxy/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/rxy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rxy/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/string-and-words.iml" beforeDir="false" afterPath="$PROJECT_DIR$/string-and-words.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +41,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -57,14 +61,24 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="create.test.in.the.same.root" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="com.rxy" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
     </key>
     <key name="CreateClassDialog.RecentsKey">
       <recent name="com.rxy" />
@@ -112,7 +126,14 @@
       <option name="project" value="LOCAL" />
       <updated>1652069839443</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Version 3.0&#10;3rd Requirements applied">
+      <created>1652070263152</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1652070263152</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -141,44 +162,61 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Version 1.0&#10;First basic requirements of project met. Working with sample.txt file in the working directory. Meets simple test cases." />
-    <option name="LAST_COMMIT_MESSAGE" value="Version 1.0&#10;First basic requirements of project met. Working with sample.txt file in the working directory. Meets simple test cases." />
+    <MESSAGE value="Version 3.0&#10;3rd Requirements applied" />
+    <option name="LAST_COMMIT_MESSAGE" value="Version 3.0&#10;3rd Requirements applied" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="593" y="79" key="#MainTest.countWord" timestamp="1652071533685">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="593" y="79" key="#MainTest.countWord/0.25.1440.875@0.25.1440.875" timestamp="1652071533685" />
+    <state x="818" y="221" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1652071883632">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="818" y="221" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.25.1440.875@0.25.1440.875" timestamp="1652071883632" />
     <state x="0" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647136422331">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="0" y="121" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647136422331" />
+    <state x="818" y="242" key="#com.intellij.ide.util.PackageChooserDialog" timestamp="1652071310084">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="818" y="242" key="#com.intellij.ide.util.PackageChooserDialog/0.25.1440.875@0.25.1440.875" timestamp="1652071310084" />
     <state x="179" y="134" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog" timestamp="1648191528052">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="179" y="134" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.25.1440.875@0.25.1440.875" timestamp="1648191528052" />
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1652069794765">
+    <state x="467" y="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1" timestamp="1652072861511">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1652069794765" />
+    <state x="467" y="309" key="ANALYSIS_DLG_com.intellij.analysis.BaseAnalysisAction$1/0.0.1440.900@0.0.1440.900" timestamp="1652072861511" />
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom" timestamp="1652072299530">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="1398" height="258" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1652072299530" />
     <state width="1020" height="220" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184081" />
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1652064251165" />
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1652071645885" />
     <state width="2518" height="279" key="GridCell.Tab.0.bottom/1180.25.2560.1055/0.25.1180.717@1180.25.2560.1055" timestamp="1648164580550" />
-    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1652069794764">
+    <state width="1398" height="258" key="GridCell.Tab.0.center" timestamp="1652072299529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1652069794764" />
+    <state width="1398" height="258" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1652072299529" />
     <state width="1020" height="220" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184081" />
-    <state width="1398" height="279" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1652064251164" />
+    <state width="1398" height="279" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1652071645884" />
     <state width="2518" height="279" key="GridCell.Tab.0.center/1180.25.2560.1055/0.25.1180.717@1180.25.2560.1055" timestamp="1648164580549" />
-    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1652069794764">
+    <state width="1398" height="258" key="GridCell.Tab.0.left" timestamp="1652072299529">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1652069794764" />
+    <state width="1398" height="258" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1652072299529" />
     <state width="1020" height="220" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184080" />
-    <state width="1398" height="279" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1652064251164" />
+    <state width="1398" height="279" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1652071645884" />
     <state width="2518" height="279" key="GridCell.Tab.0.left/1180.25.2560.1055/0.25.1180.717@1180.25.2560.1055" timestamp="1648164580549" />
-    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1652069794764">
+    <state width="1398" height="258" key="GridCell.Tab.0.right" timestamp="1652072299530">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
-    <state width="1398" height="279" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1652069794764" />
+    <state width="1398" height="258" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1652072299530" />
     <state width="1020" height="220" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184081" />
-    <state width="1398" height="279" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1652064251165" />
+    <state width="1398" height="279" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1652071645885" />
     <state width="2518" height="279" key="GridCell.Tab.0.right/1180.25.2560.1055/0.25.1180.717@1180.25.2560.1055" timestamp="1648164580550" />
     <state width="1398" height="273" key="GridCell.Tab.1.bottom" timestamp="1648189028843">
       <screen x="0" y="25" width="1440" height="875" />
@@ -196,19 +234,24 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state width="1398" height="273" key="GridCell.Tab.1.right/0.25.1440.875@0.25.1440.875" timestamp="1648189028843" />
-    <state x="0" y="25" width="727" height="843" key="SettingsEditor" timestamp="1648191538277">
-      <screen x="0" y="25" width="1440" height="875" />
-    </state>
-    <state x="40" y="98" key="SettingsEditor/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647136080588" />
-    <state x="0" y="25" width="727" height="843" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1648191538277" />
-    <state x="77" y="327" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1652069131351">
+    <state x="0" y="25" width="900" height="868" key="SettingsEditor" timestamp="1652074396430">
       <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state x="0" y="25" width="900" height="868" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1652074396430" />
+    <state x="40" y="98" key="SettingsEditor/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647136080588" />
+    <state x="0" y="25" width="727" height="843" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1648191538277" />
+    <state x="77" y="343" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1652071326804">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
     <state x="77" y="327" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1440.900@0.0.1440.900" timestamp="1652069131351" />
-    <state x="77" y="343" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.25.1440.875@0.25.1440.875" timestamp="1648191521536" />
+    <state x="77" y="343" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.25.1440.875@0.25.1440.875" timestamp="1652071326804" />
     <state x="322" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647137090090">
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="322" y="380" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647137090090" />
+    <state x="859" y="237" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1652071340393">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="859" y="237" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.25.1440.875@0.25.1440.875" timestamp="1652071340393" />
   </component>
 </project>
