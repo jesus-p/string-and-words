@@ -20,11 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="c1b88fcb-a242-45d6-a462-41932b322be9" name="Default Changelist" comment="Version 1.0&#10;First basic requirements of project met. Working with sample.txt file in the working directory. Meets simple test cases.">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_commons_commons_lang3_3_3_2.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/sample_words.txt" beforeDir="false" afterPath="$PROJECT_DIR$/sample_words.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rxy/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/string-and-words.iml" beforeDir="false" afterPath="$PROJECT_DIR$/string-and-words.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/rxy/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/rxy/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,6 +49,8 @@
     <property name="Repository.Attach.Annotations" value="false" />
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
@@ -120,29 +120,33 @@
       <screen x="0" y="25" width="1440" height="875" />
     </state>
     <state x="179" y="134" key="#com.intellij.openapi.roots.ui.configuration.libraryEditor.LibraryEditorDialog/0.25.1440.875@0.25.1440.875" timestamp="1648191528052" />
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1648190357936">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom" timestamp="1652068485506">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1652068485506" />
     <state width="1020" height="220" key="GridCell.Tab.0.bottom/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184081" />
-    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1648190357936" />
+    <state width="1398" height="279" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1652064251165" />
     <state width="2518" height="279" key="GridCell.Tab.0.bottom/1180.25.2560.1055/0.25.1180.717@1180.25.2560.1055" timestamp="1648164580550" />
-    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1648190357935">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="279" key="GridCell.Tab.0.center" timestamp="1652068485505">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="279" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1652068485505" />
     <state width="1020" height="220" key="GridCell.Tab.0.center/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184081" />
-    <state width="1398" height="279" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1648190357935" />
+    <state width="1398" height="279" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1652064251164" />
     <state width="2518" height="279" key="GridCell.Tab.0.center/1180.25.2560.1055/0.25.1180.717@1180.25.2560.1055" timestamp="1648164580549" />
-    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1648190357935">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="279" key="GridCell.Tab.0.left" timestamp="1652068485505">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="279" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1652068485505" />
     <state width="1020" height="220" key="GridCell.Tab.0.left/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184080" />
-    <state width="1398" height="279" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1648190357935" />
+    <state width="1398" height="279" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1652064251164" />
     <state width="2518" height="279" key="GridCell.Tab.0.left/1180.25.2560.1055/0.25.1180.717@1180.25.2560.1055" timestamp="1648164580549" />
-    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1648190357935">
-      <screen x="0" y="25" width="1440" height="875" />
+    <state width="1398" height="279" key="GridCell.Tab.0.right" timestamp="1652068485506">
+      <screen x="0" y="0" width="1440" height="900" />
     </state>
+    <state width="1398" height="279" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1652068485506" />
     <state width="1020" height="220" key="GridCell.Tab.0.right/0.25.1440.875/1440.25.1180.717@0.25.1440.875" timestamp="1647138184081" />
-    <state width="1398" height="279" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1648190357935" />
+    <state width="1398" height="279" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1652064251165" />
     <state width="2518" height="279" key="GridCell.Tab.0.right/1180.25.2560.1055/0.25.1180.717@1180.25.2560.1055" timestamp="1648164580550" />
     <state width="1398" height="273" key="GridCell.Tab.1.bottom" timestamp="1648189028843">
       <screen x="0" y="25" width="1440" height="875" />

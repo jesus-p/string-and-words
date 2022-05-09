@@ -13,20 +13,48 @@ public class Main {
         String path = String.valueOf(FileSystems.getDefault().getPath("sample_words.txt"));
         Scanner fileInput = new Scanner(fin);
 
-        countWord(fileInput);
-        fileInput.close();
-        fin.close();
+        //Main Menu select wordcount feature
+        System.out.println("_______MAIN MENU_______");
+        System.out.print("Please select one fo the following options:" +
+                "\n(1) Count words in txt file" +
+                "\n(2) Replace word in txt" +
+                "\n(3) Use grepline feature" +
+                "\nTYPE OPTION NUMBER AND PRESS ENTER: ");
+        Scanner optionSelected = new Scanner (System.in);
 
-        System.out.println("Would you like to replace any words? (Y/N)");
-        Scanner userInput = new Scanner (System.in);
-
-        if (userInput.next().equals("y")) {
-            System.out.println("Type in the word inside the txt file that you would like to replace: ");
-            String oldWord = new Scanner(System.in).nextLine();
-            System.out.println("What word would you like to replace it with: ");
-            String newWord = new Scanner(System.in).nextLine();
-
-            replaceWord(path, oldWord, newWord);
+        switch (optionSelected.nextInt()) {
+            case 1:
+                System.out.println("OPTION 1 SELECTED...\n");
+                countWord(fileInput);
+                fileInput.close();
+                fin.close();
+                System.out.println("\n***Program Exited. Close and run again for another option***");
+                break;
+            case 2:
+                System.out.println("\nOPTION 2 SELECTED...\n");
+                System.out.println("--WORD COUNT OF CURRENT FILE--");
+                countWord(fileInput);
+                System.out.println("Type in the word inside the txt file that you would like to replace: ");
+                String oldWord = new Scanner(System.in).nextLine();
+                System.out.println("What word would you like to replace it with: ");
+                String newWord = new Scanner(System.in).nextLine();
+                replaceWord(path, oldWord, newWord);
+                System.out.println("--WORD COUNT OF NEW FILE--");
+                countWord(fileInput);
+                System.out.println("\n***Program Exited. Close and run again for another option***");
+                break;
+            case 3:
+                System.out.println("\nOPTION 3 SELECTED...\n");
+                System.out.println("Type in the word you would like to find:");
+                String findWord = new Scanner(System.in).nextLine();
+                grepline(fileInput, findWord);
+                System.out.println("\n***Program Exited. Close and run again for another option***");
+                break;
+            default:
+                System.out.println("Incorrect/No option selected. Run program again to use a word count feature.");
+                fileInput.close();
+                fin.close();
+                break;
         }
     }
 
@@ -86,6 +114,19 @@ public class Main {
                 writer.close();
             } catch (IOException e){
                 e.printStackTrace();
+            }
+        }
+    }
+
+    static void grepline(Scanner fileInput, String findWord) throws FileNotFoundException {
+
+        // Let's loop through each line of the file
+        while (fileInput.hasNext()) {
+            String line = fileInput.nextLine();
+
+            // Now, check if this line contains our keyword. If it does, print the line
+            if (line.contains(findWord)) {
+                System.out.println(line);
             }
         }
     }
