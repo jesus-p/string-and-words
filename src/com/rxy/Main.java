@@ -9,8 +9,10 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
         //Create input stream and scanner
-        FileInputStream fin = new FileInputStream("sample_words.txt");
-        String path = String.valueOf(FileSystems.getDefault().getPath("sample_words.txt"));
+        System.out.println("Enter the name of the txt file and press enter (Ex: 'test.txt'): ");
+        String txtFileName = new Scanner(System.in).nextLine();
+        FileInputStream fin = new FileInputStream(txtFileName);
+        String path = String.valueOf(FileSystems.getDefault().getPath(txtFileName));
         Scanner fileInput = new Scanner(fin);
 
         //Main Menu select wordcount feature
@@ -28,7 +30,7 @@ public class Main {
                 countWord(fileInput);
                 fileInput.close();
                 fin.close();
-                System.out.println("\n***Program Exited. Close and run again for another option***");
+                System.out.println("***Program Exited. Close and run again for another option***");
                 break;
             case 2:
                 System.out.println("\nOPTION 2 SELECTED...\n");
@@ -41,14 +43,14 @@ public class Main {
                 replaceWord(path, oldWord, newWord);
                 System.out.println("--WORD COUNT OF NEW FILE--");
                 countWord(fileInput);
-                System.out.println("\n***Program Exited. Close and run again for another option***");
+                System.out.println("***Program Exited. Close and run again for another option***");
                 break;
             case 3:
                 System.out.println("\nOPTION 3 SELECTED...\n");
                 System.out.println("Type in the word you would like to find:");
                 String findWord = new Scanner(System.in).nextLine();
                 grepline(fileInput, findWord);
-                System.out.println("\n***Program Exited. Close and run again for another option***");
+                System.out.println("***Program Exited. Close and run again for another option***");
                 break;
             default:
                 System.out.println("Incorrect/No option selected. Run program again to use a word count feature.");
