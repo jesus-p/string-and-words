@@ -63,3 +63,24 @@ Output (via edited .txt file):
 Hi world  
 hello World  
   
+### 3rd Requirement
+The 3rd requirement is to add the grepline feature. For this there is as test.txt that will load the first and second line when when searching for "Hi"
+
+Enter the name of the txt file and press enter (Ex: 'test.txt'): 
+test.txt
+_______MAIN MENU_______
+Please select one fo the following options:
+(1) Count words in txt file
+(2) Replace word in txt
+(3) Use grepline feature
+TYPE OPTION NUMBER AND PRESS ENTER: 3
+
+OPTION 3 SELECTED...
+
+Type in the word you would like to find:
+Hi
+Hi this is test txt
+line 3 Hi from the third line
+***Program Exited. Close and run again for another option***
+
+Process finished with exit code 0
