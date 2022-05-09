@@ -7,6 +7,7 @@ This program performs various word statistics of a given document (as a string).
 - Source files
 - Test files
 - Project Requirement files
+- ClodeDetection Resulst (Using NiCad 6.2)
 
 ## Dev Enviroment
 The current submission is a standalone Java program. The project was built using the IntellijIdea IDE  
@@ -23,6 +24,7 @@ The program can be compiled and executed with Java in Linux
 3. Execute the class while in the src folder  
 `$ java com.rxy.Main`
 
+4. Make sure the test txt file is inside main dir of the program
 
 
 ## User Stories
@@ -89,4 +91,7 @@ Output (via edited .txt file):
 >Hi world this is a test text file  
 Hi world  
 hello World  
-  
+
+
+### 3rd Requirement
+The third requirement is to add a feature called grepline. This feature will take a document and keyword as its input and returns the lines in the document that contains at least one occurrence of the keyword. Note that like the second requirement, the match of keyword is whole word only. So, ‘ab’ has one occurrence in ‘ab cd ef’, but no occurrence in ‘abc de ff’.
