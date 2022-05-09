@@ -24,6 +24,7 @@ The program can be compiled and executed with Java in Linux
 3. Execute the class while in the src folder  
 `$ java com.rxy.Main`
 
+4. Make sure the test txt file is inside main dir of the program
 
 
 ## User Stories
