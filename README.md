@@ -1,97 +1,81 @@
-# Course Project: String-and-Words
+# String and Words
 
-This program performs various word statistics of a given document (as a string). The current program was designed to satisfy current checkpoint requirements.
+This program lets you analyze and make changes to the words in a text file. It tells you how often each word appears, lets you replace words, and can show you lines that contain a certain word.
 
-**Included:**
-- This README
-- Source files
-- Test files
-- Project Requirement files
-- ClodeDetection Resulst (Using NiCad 6.2)
+## What's Included
 
-## Dev Enviroment
-The current submission is a standalone Java program. The project was built using the IntellijIdea IDE  
-  
+- This README file
+- Program files (the code)
+- Files for testing the program
+- Project guidelines/requirements
+- Results from code similarity checker (NiCad 6.2)
 
-## Running Program
-The program can be compiled and executed with Java in Linux  
+## Development Environment
 
-1. Go to the Main folder (/string-and-words/src/com/rxy/Main.java) 
-  
-2. Compile each Java file producing ClassName.class files  
-`$ javac Main.java`
-  
-3. Execute the class while in the src folder  
-`$ java com.rxy.Main`
+- This project is a self-contained Java program.
+- It was created using the IntelliJ IDEA application.
 
-4. Make sure the test txt file is inside main dir of the program
+## How to Run the Program
 
+1. Find the Main.java file here:  
+   `/string-and-words/src/com/rxy/Main.java`
+2. Open a terminal and move to the folder with Main.java.
+3. Compile the program with:
+   ```bash
+   javac Main.java
+   ```
+4. Go to the `src` folder and run the program with:
+   ```bash
+   java com.rxy.Main
+   ```
+5. Make sure your text file is in the main folder where the program is located.
 
-## User Stories
-### 1st Requirement
-The initial requirement was to count the frequency of each unique word. The code should support combinations of space, tab, and newline characters as separators.
+## What the Program Does
 
-The program was developed to count the frequency of words in a given document (txt file). The user of the program will input a .txt file and get an out of unique words and their occurrences, where the words are separated by space/tab/newline characters.
-  
-**Example**  
-Input (via .txt file):  
->Hello world this is a test text file  
-Hello world  
-hello World  
-    
-    
-Output (via system ouput):  
->Hello occurred 2 time(s)  
-world occurred 2 time(s)  
-this occurred 1 time(s)  
-is occurred 1 time(s)  
-a occurred 1 time(s)  
-test occurred 1 time(s)  
-text occurred 1 time(s)  
-file occurred 1 time(s)  
-hello occurred 1 time(s)  
-World occurred 1 time(s)  
---------END OF WORD COUNT--------  
-  
-  
-### 2nd Requirement
-The second requirement change is to allow replacement of all occurrences of a given word to a given replacement word. Note that the replacement happens only when the given pattern word matches with a whole word. For example, for text “ab cd ef”, replace “a” with “b” will result in no change, while replace “ab” with “cd” will result in “cd cd ef”.
+### 1. Count Word Frequency
 
-The user of the program will input a .txt file and get an out of unique words and their occurrences, as before. After, the user will have the option to replace any word in the user's input file. For this example the user wants to change all the occurrences of "Hello" to "Hi".  
+- The program reads a text file and tells you how many times each word appears.
+- It treats spaces, tabs, and new lines as ways to separate words.
 
-**Example**  
-Input (via .txt file):  
->Hello world this is a test text file  
-Hello world  
-hello World 
-  
-    
-Output (via system ouput):  
->Hello occurred 2 time(s)  
-world occurred 2 time(s)  
-this occurred 1 time(s)  
-is occurred 1 time(s)  
-a occurred 1 time(s)  
-test occurred 1 time(s)  
-text occurred 1 time(s)  
-file occurred 1 time(s)  
-hello occurred 1 time(s)  
-World occurred 1 time(s)  
---------END OF WORD COUNT--------  
-Would you like to replace any words? (Y/N)  
-y  
-Type in the word inside the txt file that you would like to replace:   
-Hello  
-What word would you like to replace it with:   
-Hi   
-Process finished with exit code 0    
-  
-  
-Output (via edited .txt file):  
->Hi world this is a test text file  
-Hi world  
-hello World  
+**Example:**  
+If your file contains:
+```
+Hello world this is a test text file
+Hello world
+hello World
+```
+The output will be:
+```
+Hello occurred 2 time(s)
+world occurred 2 time(s)
+this occurred 1 time(s)
+is occurred 1 time(s)
+a occurred 1 time(s)
+test occurred 1 time(s)
+text occurred 1 time(s)
+file occurred 1 time(s)
+hello occurred 1 time(s)
+World occurred 1 time(s)
+--------END OF WORD COUNT--------
+```
 
+### 2. Replace Specific Words
 
-### 3rd Requirement
-The third requirement is to add a feature called grepline. This feature will take a document and keyword as its input and returns the lines in the document that contains at least one occurrence of the keyword. Note that like the second requirement, the match of keyword is whole word only. So, ‘ab’ has one occurrence in ‘ab cd ef’, but no occurrence in ‘abc de ff’.
+- After counting the words, you have the option to replace any word with another one.
+- Replacements only happen for whole words (for example, "cat" will not replace "catnap").
+- For instance, you can change every "Hello" in the file to "Hi".
+
+**Example:**  
+You choose to replace "Hello" with "Hi", then the file changes to:
+```
+Hi world this is a test text file
+Hi world
+hello World
+```
+
+### 3. Find Lines with a Specific Word (Grepline Feature)
+
+- The program can show you all lines from your file that contain a specific word.
+- Again, it only matches whole words (for example, "cat" matches "cat", but not "catalog").
+
+Feel free to let me know if you need help running the program or using any of its features!
